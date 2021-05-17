@@ -1,9 +1,14 @@
-import React from 'react';
-import AboutSection from '../components/AboutSection'
-const AboutUs = () => {
-    return (
-        <AboutSection />
-    )
-}
+import React from "react";
+import AboutSection from "../components/AboutSection";
+import ServicesSection from "../components/ServicesSection";
 
-export default AboutUs
+const AboutUs = () => {
+  return (
+    <>
+      <AboutSection />
+      <ServicesSection />
+    </>
+  );
+};
+
+export default AboutUs;
